@@ -1,4 +1,4 @@
-# Security reason
+# Security
 
 ## Use case
 This example demonstrates:
