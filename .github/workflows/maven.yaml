@@ -37,4 +37,4 @@ jobs:
         run: mvn clean install
       - name: Run Sonar with Maven
         #run: mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=${{ secrets.Sonar }}             
-        run: mvn clean package             
+        run: mvn sonar:sonar -Dsonar.host.url=http://http://3.89.253.56/ -Dsonar.login=${{ secrets.Sonar }}             
